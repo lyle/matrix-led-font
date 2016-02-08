@@ -11,7 +11,7 @@ exports.getChar = function(key) {
 };
 
 var fontDefinition = [
-    {     key: 'space',
+    {     key: ' ',
         value: ['00000000','00000000','00000000','00000000']},
     {     key: '!',
         value: ['01011111','00000000']},
