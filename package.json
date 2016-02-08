@@ -1,0 +1,11 @@
+{
+  "name": "matrix-led-font",
+  "version": "1.0.0",
+  "description": "A font for using MAX7219 LED Matrix with Arduino.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lyle Troxell <lyle@troxell.com>(http://lyle.troxell.com)",
+  "license": "MIT"
+}
