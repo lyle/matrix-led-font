@@ -24,6 +24,18 @@ describe('getChar', function(){
         assert.equal(matrixSingleQuote[i], dArray[i], i +'element is equal');
     };
   });
+
+  it('should return LED Matrix for a UTF8 Char, ♡ (Heart)', function(){
+    var matrixFont  = require('../index.js');
+
+    var heartArray=['00011110','00100001','01000001','10000110','10000110','01000001','00100001','00011110'];
+    var matrixSingleQuote = matrixFont.getChar('♡');
+    assert.equal(heartArray.length, matrixSingleQuote.length);
+    for (var i=0; i<heartArray.length; i++) {
+        assert.equal(matrixSingleQuote[i], heartArray[i], i +'element is equal');
+    };
+  });
+
 })
 
 
