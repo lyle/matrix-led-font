@@ -73,6 +73,15 @@ describe('getBufferFromGlyph',function(){
    let actual = matrixFont.getBufferFromGlyph('♡');
    assert.deepEqual(actual, Uint8Array.from(heartArray))
  });
+  it('should return LED Matrix for a space', function(){
+   let space = [
+          0b00000000,
+          0b00000000,
+          0b00000000,
+          0b00000000]
+   let actual = matrixFont.getBufferFromGlyph(' ');
+   assert.deepEqual(actual, Uint8Array.from(space))
+ });
 })
 
 /** @test {getAllGlyphs}
