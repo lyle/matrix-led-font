@@ -98,7 +98,7 @@ describe('concat', function(){
   let a  = [1,2,3,4];
   let b  =         [5,6,7,8];
   let ab = [1,2,3,4,5,6,7,8]
-  it('should concat to arrays together', function(){
+  it('should concat two arrays together', function(){
     let actual = matrixFont.concat(a,b)
     assert.deepEqual(ab,actual)
   })

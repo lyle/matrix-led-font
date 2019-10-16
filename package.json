@@ -1,6 +1,6 @@
 {
   "name": "matrix-led-font",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "A font for using MAX7219 LED Matrix with Arduino.",
   "main": "src/index.js",
   "author": "Lyle Troxell <lyle@troxell.com>(http://lyle.troxell.com)",
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "mocha": "^2.4.5",
-    "npm-watch": "^0.4.0",
+    "npm-watch": "^0.6.0",
     "esdoc": "^1.1.0",
     "esdoc-standard-plugin": "^1.0.0",
     "esdoc-node": "^1.0.3"
