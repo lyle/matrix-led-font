@@ -1,0 +1,5 @@
+ESDOC="esdoc esdoc-standard-plugin esdoc-node"
+
+npm i $ESDOC -D
+./node_modules/.bin/esdoc
+npm uninstall $ESDOC -D

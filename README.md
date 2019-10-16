@@ -10,7 +10,7 @@ A font for using [MAX7219 LED Matrix](http://playground.arduino.cc/Main/MAX72XXH
 
 ## Documentation
 
-Please feel free to generate full esDocs ...
+Please feel free to generate full esDocs (using a bash script due to esdocs having a vulnerability)...
 
 `npm run docs` ->  then open ./docs/index.html
 
