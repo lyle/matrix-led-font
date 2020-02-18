@@ -42,7 +42,7 @@ Returns a Buffer/Uint8Array that can be used to turn leds on/off on a matrix dis
 
 ```
 import {getBufferFromLine} from 'matrix-led-font'
-let twoHeartMatrix = import('♡');
+let twoHeartMatrix = import('♡♡');
 ```
 
 Returns a Buffer/Uint8Array
