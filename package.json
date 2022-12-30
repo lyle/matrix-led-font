@@ -21,7 +21,7 @@
     "url": "https://github.com/lyle/matrix-led-font.git"
   },
   "devDependencies": {
-    "mocha": "^6.2.1",
+    "mocha": "^10.2.0",
     "npm-watch": "^0.6.0"
   }
 }
